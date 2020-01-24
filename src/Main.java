@@ -61,7 +61,7 @@ public class Main {
 
         JFreeChart histogram = ChartFactory.createHistogram("PALIM",
                 "Vente ", "Année", dataset);
-
+//mzmzmzm
         ChartUtils.saveChartAsPNG(new File("mmmmm.png"), histogram, 450, 400);
     }
 }
